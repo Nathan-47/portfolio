@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Nathan Parchment</title>
+<link rel="icon" type="">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+<!--FONT-->
+<link href="https://fonts.googleapis.com/css?family=Share&display=swap" rel="stylesheet">  
+<!--FONT-->
+    
+<!--lINK TO STYLESHEET-->
+<link rel="stylesheet" type="text/css" href="css/myStyle.css">   
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--lINK TO STYLESHEET-->
+
+<!--SMOOTH SCROLL-->
+<script>
+$(document).ready(function(){
+// Add smooth scrolling to all links
+$("a").on('click', function(event) {
+
+// Make sure this.hash has a value before overriding default behavior
+if (this.hash !== "") {
+// Prevent default anchor click behavior
+event.preventDefault();
+
+// Store hash
+var hash = this.hash;
+
+// Using jQuery's animate() method to add smooth page scroll
+// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+$('html, body').animate({
+scrollTop: $(hash).offset().top
+}, 700, function(){
+   
+// Add hash (#) to URL when done scrolling (default click behavior)
+window.location.hash = hash;
+});
+} // End if
+});
+});
+</script>  
+<!--SMOOTH SCROLL-->
+    
+<script>
+   $('.modal').bind('mouseenter touchstart', function(e) {
+        var current = $(window).scrollTop();
+        $(window).scroll(function(event) {
+            $(window).scrollTop(current);
+        });
+    });
+    $('.modal').bind('mouseleave touchend', function(e) {
+        $(window).off('scroll');
+    });
+</script>
+</head>   
+<body>
+    
+    
+<!--NAVBAR-->
+<nav id="nav">
+<div class="logo">
+<h2><a href="#home">Nathan Parchment</a></h2>
+</div>
+  
+<ul class="nav-links">
+      <li>
+          <a href="#aboutsection">ABOUT</a>
+      </li>
+      
+       <li>
+          <a href="#skillssection">SKILLS</a>
+      </li>
+      
+       <li>
+          <a href="#projectsection">PROJECTS</a>
+      </li>
+      
+       <li>
+          <a href="#footersection">CONTACT</a>
+      </li>
+</ul>
+      
+
+<!--Navbar toggle button for when users have smaller screens-->
+<div class="burger">
+<div class="line1"></div>
+<div class="line2"></div>
+<div class="line3"></div>
+</div>   
+</nav>
+<!--Navbar toggle button for when users have smaller screens-->
+<!--NAVBAR-->
+    
+    
+<!--TITLE-->   
+<div class="jumbotron jumbotron-fluid" id="home">
+<div class="container">
+<h1>FRONT-END DEVELOPER</h1>
+</div>
+<div class="container">
+<p id="quote">"Don't tell me the sky's the limit when there are footprints on the moon" - Paul Brandt</p>
+</div> 
+</div>
+<!--TITLE-->
+    
+<div class="center">
+<div class="down"></div>
+</div>     
+   
+    
+<!--ABOUT SECTION-->
+<div class="container-fluid" id="aboutsection">
+    <br>
+    <br>
+    <br>
+    <br>
+<p class="abouttitle">ABOUT ME</p>
+
+<div class="container-fluid">
+<div class="row">
+<img src="#" id="aboutsectionpic" alt="picture of me">
+    
+<div class="container" id="aboutsectioninfo">
+<p>Creative, enthusiastic and energetic digital media graduate seeking a breakthrough opportunity in Front  end development. Competent at developing online platforms and using HTML, JavaScript (JS), CSS and PHP to publish engaging and informative content within a smooth user experience. My web portfolio demonstrates further examples of these technical skills along with my passion and commitment, which I hope to expand on throughout my career. 
+<br>
+<br>
+I love to create mock sites with my own twist added to it to enhance my abilities and understanding of coding and designing. My goal is to excel at everything that I learn and stand out from the crowd. My love of website design & coding, video games, films and animation are the reason why I want to indulge myself within the media industry and create standout work. 
+When I’m not creating within the digital world, I like to be involved with the outside world  too. This involves watching and playing football, going to the gym and coaching an under 10’s football team.
+</p>
+</div>
+</div>
+</div>
+    
+    
+<div class="container-fluid">
+<div class="row">  
+<a href="cv/Nathan_ParchmentCV.pdf" target="blank" class="btn-contact1">
+<span class="content">VIEW CV</span>
+</a>
+</div>
+</div>
+</div>
+<!--ABOUT SECTION-->
+    
+    
+<!--SKILLS SECTION-->
+<div class="container-fluid">
+<div class="container-fluid" id="skillssection">
+<p class="skills">SKILLS</p>
+</div>  
+
+ 
+<div class="flex-container">
+<div id="skillbox1"><h2><i class="fa fa-code"></i>DEVELOPER</h2>
+<li>HTML5</li> 
+<li>Javascript</li>
+<li>CSS3</li>
+<li>JQuery</li>
+<li>Apache</li>
+<li>React (Learning)</li>
+<li>PHP</li>
+<li>Bootsrap v.04</li>
+      
+<br>SOFTWARE TOOLS<br>
+<ul class="box1text">
+<p>- Scrum/Agile Methodologies</p>
+<p>- Github</p>
+<p>- Xampp</p>
+</ul>
+</div>
+  
+<div id="skillbox2"><h3><i class="fa fa-picture-o"></i>3DMODELLER/ANIMATOR</h3><p> 
+<li>Tweening</li> 
+<li>Storyboarding</li>
+<li>Animation Graphics</li>
+<li>Texturing & Rendering</li>
+      
+<br>SOFTWARE TOOLS<br>
+<ul class="box2text">
+<p>- ADOBE Flash</p>
+<p>- Maya 3D</p>
+</ul>
+</div>
+    
+<div id="skillbox3"><h2><i class="fa fa-paint-brush"></i>DESIGNER</h2><p> 
+<li>Wireframing</li> 
+<li>Responsive Design</li>
+<li>UI/UX Design</li>
+<li>Brain Storming</li>
+<li>Time Management</li>
+<li>Perceptivity</li>
+          
+<br>SOFTWARE TOOLS<br>
+<ul class="box3text">
+<p>- ADOBE Illustrator</p>
+<p>- ADOBE Photoshop</p>
+<p>- Krita</p>
+</ul>
+</div>
+</div>
+</div>
+<!--SKILLS SECTION-->
+    
+    
+<!--PROJECT SECTION-->
+<div class="container-fluid" id="projectsection">
+<br>
+<br>
+<br>
+<br>
+<p class="projecttitle">PROJECTS</p>
+   
+<div class="container-fluid">
+<div class="row">
+      
+
+<div id="myBtnContainer">
+
+<button class="btn active" onclick="filterSelection('all')"> SHOW ALL</button>
+<button class="btn" onclick="filterSelection('graphicdesign')"> GRAPHIC DESIGN</button>
+<button class="btn" onclick="filterSelection('frontenddev')"> FRONT-END DEVELOPMENT</button>
+<button class="btn" onclick="filterSelection('3dmodelling')"> 3D MODELLING</button>
+ 
+</div>
+</div>
+</div>
+
+<div class="container-fluid" id="projwid">
+    
+<div class="row">
+<div class="column graphicdesign">
+<div class="content"> 
+<a href="images/gd1-thumbnail.png"><img src="images/gd1-thumbnail.png" alt="Bill Brandt & Cecil Beaton poster final version" width="100%"></a>
+</div>
+</div>
+<div class="column graphicdesign">
+<div class="content">
+  <h4>BILL BRANDT & CECIL BEATON POSTER (UNIVERISTY MODULE)</h4>
+      <li>Adobe Photoshop</li>
+      <li>Used Adobe Illustrator to create the logo</li>
+      <br>
+      <p><i><b>In this project I was told to create a poster about two photographers that I was given, to attract an audience to attend an art exhibition about them both.</b></i></p>
+</div>
+      
+<div id="btn">
+<button class="modal-button" href="#myModal">VIEW DESIGN</button>
+</div>	
+</div>
+</div>
+
+
+<div class="row">
+<div class="column graphicdesign">
+<div class="content">
+<a href="images/gd2-thumbnail.jpg"><img src="images/gd2-thumbnail.jpg" alt="Project #2 thumbnail"></a>
+</div>
+</div>
+<div class="column graphicdesign">
+<div class="content">
+ <h4>INSPIRED PHOTOGRAPHY (UNIVERISTY MODULE)</h4>
+      <li>Adobe Photoshop used to edit and morph images</li>
+      <li>Camera Used was a Canon EOS 750D</li>
+      <br>
+      <p><i><b>In this task I needed to form a piece of photography work that is inspired by either Bill Brandt and Cecil Beaton who are both abstract photographers, and another piece that is inspired by a scene from a movie of my own choice.</b></i></p>
+</div>
+      
+<div id="btn">
+<button class="modal-button" href="#myModal1">VIEW DESIGN</button>
+</div>
+</div>
+</div>
+
+ 
+<div class="row">
+<div class="column frontenddev">
+<div class="content">
+<div class="gallery">
+<a href="images/portfolio-thumbnail.png"><img src="images/portfolio-thumbnail.png" alt="Project portfolio thumbnail"></a>
+</div>
+</div>
+</div>
+<div class="column frontenddev">
+<div class="content">
+      <h4>PORTFOLIO PLACEHOLDER</h4>
+      <li>Built using Bootstrap 4</li>
+      <li>Designed by myself</li>
+      <li>Uses HTML5 & CSS3</li>
+      <li>Javascript and JQuery used to present data to user for a smooth experience</li>
+      <br>
+      <p><i><b>The project placeholder uses all the code and design from my own portfolio except the only different is that the information is all replaced with default text and placeholder images. </b></i></p>
+</div>
+      
+<div id="btn">
+<button class="modal-button" href="#myModal9">VIEW PROJECT</button> 
+</div>
+</div>
+</div>     
+    
+    
+<div class="row">
+<div class="column frontenddev">
+<div class="content">
+<div class="gallery">
+<a href="images/millennialgaming-thumbnail.png"><img src="images/millennialgaming-thumbnail.png" alt="Millenial gaming thumbnail"></a>
+</div>
+</div>
+</div>
+<div class="column frontenddev">
+<div class="content">
+      <h4>MILLENNIAL GAMING SITE (UNIVERISTY MODULE)</h4>
+      <li>MySQL database built from stratch</li>
+      <li>Built using Bootstrap 4</li>
+      <li>PHP used to relay data from SQL</li>
+      <br>
+      <p><i><b>In this project I created  a single page e-commerce game site for my university task. The target audience for this site is for millenials that don't have much money thus all games being below £30.</b></i></p>
+</div>
+      
+<div id="btn">
+<button class="modal-button" href="#myModal6">VIEW PROJECT</button> 
+</div>
+</div>
+</div> 
+    
+ 
+<div class="row">
+<div class="column frontenddev">
+<div class="content">
+<div class="gallery">
+<a href="images/chesssite-thumbnail.png"><img src="images/chesssite-thumbnail.png" alt="Checkmate site thumbnail"></a>
+</div>
+</div>
+</div>
+<div class="column frontenddev">
+<div class="content">
+      <h4>CHECKMATE SITE (UNIVERSITY MODULE)</h4>
+      <li>Built using Bootstrap 4<br></li>
+      <li>Uses HTML5 & CSS3<br></li>
+      <li>Adobe Illustrator used for logos and title<br></li>
+      <br>
+    <p><b><i>This project consists of a website built for chess players of any level wanting to know all information on chess such as upcoming tournaments, latest chess news and how to play etc.</i></b></p>
+</div>
+      
+<div id="btn">
+<button class="modal-button" href="#myModal7">VIEW PROJECT</button> 
+</div>
+</div>
+</div> 
+    
+    
+<div class="row">
+<div class="column frontenddev">
+<div class="content">
+<div class="gallery">
+<a href="images/jukebox-thumbnail.png"><img src="images/jukebox-thumbnail.png" alt="Music Jukebox thumbnail"></a>
+</div>
+</div>
+</div>
+<div class="column frontenddev">
+<div class="content">
+      <h4>MUSIC JUKEBOX (UNIVERSITY MODULE)</h4>
+      <li>Built using Bootstrap 4<br></li>
+      <li>Uses HTML5 & CSS3<br></li>
+      <li>Adobe Illustrator used for logos and title<br></li>
+      <br>
+      <p><i><b>This is the first website project I have worked on, with the task being to create a music jukebox that include songs from various artists with a working music player that plays songs to the user via an SQL database.</b></i></p>
+</div>
+      
+<div id="btn">
+<button class="modal-button" href="#myModal8">VIEW PROJECT</button> 
+</div>
+</div>
+</div> 
+  
+
+<div class="row">
+<div class="column 3dmodelling">
+<div class="content">
+<a href="images/krustykrabmodel-thumbnail.png"><img src="images/krustykrabmodel-thumbnail.png" alt="Krusty Krab project thumbnail"></a>
+</div>
+</div>
+<div class="column 3dmodelling">
+<div class="content">
+      <h4>KRUSTY KRAB(INTERIOR) (UNIVERSITY MODULE)</h4>
+      <li>Designed using Maya3D<br></li>
+      <li>Photoshop used for menu board<br></li>
+      <li>Maya3D camera and Arnold rendering aided to form the video<br></li>
+      <li>Powerpoint used to create pre-production plan<br></li>
+      <br>
+      <p><i><b>Using models from other work I fused them and added other models that I created to help construct the Krusty Krab (interior) model. The task was to create a regular restaurant or café scene, but I went ahead and decided to create the Krusty Krab.</b></i></p>
+</div>
+      
+<div id="btn">
+<button class="modal-button" href="#myModal3">VIEW 3DMODEL</button>
+</div>
+</div>
+</div> 
+    
+    
+<div class="row">
+<div class="column 3dmodelling">
+<div class="content">
+<a href="images/3dboat-thumbnail.jpg"><img src="images/3dboat-thumbnail.jpg" alt="3D Boat thumbnail"></a>
+</div>
+</div>
+<div class="column 3dmodelling">
+<div class="content">
+      <h4>BOAT ON WATER (UNIVERSITY MODULE)</h4>
+      <li>Designed using modelling software called Maya3D<br></li>
+      <br>
+      <p><i><b>The task was to create a scene that uses several objects and tools to make a 3D environment scene. The aim of this scene was to focus on lighting, angles and materials to make it look as realistic as possible.</b></i></p>
+</div>
+      
+<div id="btn">
+<button class="modal-button" href="#myModal4">VIEW 3DMODEL</button>
+</div>
+</div>
+</div>
+    
+    
+<div class="row">
+<div class="column 3dmodelling">
+<div class="content">
+<a href="images/3dkrustykrabtable-thumbnail.jpg"><img src="images/3dkrustykrabtable-thumbnail.jpg" alt="3D Krusty Krab table thumbnail"></a>
+</div>
+</div>
+<div class="column 3dmodelling">
+<div class="content">
+      <h4>KRUSTY KRAB TABLE & SEATS (UNIVERSITY MODULE)</h4>
+      <li>Created using Maya3D<br></li>
+      <br>
+      <p><i><b>The task behind this was to create a model using a Maya3D tool called revolve which allowed me to create the table leg. This task also allowed me to start getting used to using the software as I started needing less help creating models.</b></i></p>
+</div>
+<div id="btn">
+<button class="modal-button" href="#myModal5">VIEW 3DMODEL</button>
+</div>
+</div>
+</div>
+</div> 
+<!-- END GRID -->
+</div>
+<!--PROJECT SECTION-->
+    
+    
+
+    
+<!-- Bill Brandt & Cecil Beaton Poster Modal -->
+<div id="myModal" class="modal">
+
+<div class="modal-content">
+<div class="modal-header">
+<span class="close">×</span>
+</div>
+      
+<div class="modal-body">    
+<div class="row">
+<div class="col-sm-12">
+<div id="demo" class="carousel slide" data-ride="carousel" data-interval="false">
+
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img src="images/gd1-modal1.png" alt="pic of mosaic" width="110px" height="300px">
+</div>
+    
+<div class="carousel-item">
+<img src="images/gd1-modal2.png" alt="pic of logo" width="100%" height="300px">
+</div>
+</div>
+  
+	
+<a class="carousel-control-prev" href="#demo" data-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</a>
+    
+<a class="carousel-control-next" href="#demo" data-slide="next">
+<span class="carousel-control-next-icon"></span>
+</a>
+</div>
+
+<h3>Bill Brandt & Cecil Beaton Poster</h3> 
+<p>I was to design and create an A4 poster advertising a photographic exhibition that features two of my chosen artists who were Bill Brandt and Cecil Beaton. The poster had to include the museum/venue logo, the exhibition title, date & times,  a photomontage and a background with appropriate typography. 
+<br>
+<br>
+Within both photographer’s faces on the poster are their artwork put together using the tool on photoshop called mosaic. The poster background is a stained parchment material to give an old rustic feel to the poster and also using old typography to give the viewer the feel of being back in time as both artists were born in the 1900’s. 
+</p>
+</div>
+</div> 
+</div>
+
+<div class="modal-footer">
+<h3>PROJECT #1</h3>
+</div>
+</div>
+</div>   
+<!-- Bill Brandt & Cecil Beaton Poster Modal -->
+    
+    
+    
+      
+<!-- Inspired Photography Modal -->
+<div id="myModal1" class="modal">
+
+<div class="modal-content">
+<div class="modal-header">
+<span class="close">×</span>
+</div>
+      
+<div class="modal-body">
+        
+<div class="row">
+<div class="col-sm-12">
+<div id="demo1" class="carousel slide" data-ride="carousel" data-interval="false">
+
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img src="images/gd2-modal1.jpg" alt="Biil Brandt inspired pic" width="110px" height="300px">
+</div>
+    
+<div class="carousel-item">
+<img src="images/gd2-modal2.jpg" alt="Original Bill Brandt pic" width="110px" height="300px">
+</div>
+    
+<div class="carousel-item">
+<img src="images/gd2-modal3.jpg" alt="Obscure inspired pic" width="110px" height="300px">
+</div>
+    
+<div class="carousel-item">
+<img src="images/gd2-modal4.jpg" alt="Obscure pic" width="110px" height="300px">
+</div>
+</div>
+  
+	
+<a class="carousel-control-prev" href="#demo1" data-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</a>
+    
+<a class="carousel-control-next" href="#demo1" data-slide="next">
+<span class="carousel-control-next-icon"></span>
+</a>
+</div>
+      
+<h3>Inspired Photography</h3> 
+<p>The task was to take photographs to the best of my ability in the style of one of my photographers chosen for me which was Bill Brandt and Cecil Beaton. The second photo to be taken is to be influenced by the style of a theme that you could choose yourself. In this case I chose the theme obscure.
+<br>
+<br>
+- The first photograph is my adaption of the Bill Brandt photo; Evening Light, St. Pauls (second photo).
+<br>
+<br>
+- The third photograph is my photo that I took that was influenced by a scene from a film called enter the void (obscure theme). 
+</p>
+</div>       
+</div>
+</div>
+            
+<div class="modal-footer">
+<h3>PROJECT #2</h3>
+</div>      
+</div> 
+</div>   
+ <!-- Inspired Photography Modal -->
+    
+     
+	
+	
+<!--MISSING MODAL 2-->
+	
+	
+	
+    
+<!--Krusty Krab Model Modal-->
+<div id="myModal3" class="modal">
+
+<div class="modal-content">
+<div class="modal-header">
+<span class="close">×</span>
+</div>
+      
+<div class="modal-body">
+<div class="row">
+<div class="col-sm-12">
+<div id="demo3" class="carousel slide" data-ride="carousel" data-interval="false">
+
+    
+<div class="carousel-inner">
+<div class="carousel-item active">
+<video width="100%" controls>
+<source src="video/krustykrabmodel-modal1_Trim2.mp4" type="video/mp4">
+<source src="video/krustykrabmodel-modal1_Trim2.ogg" type="video/ogg">
+Your browser does not support HTML5 video.
+</video>  
+</div>
+    
+  
+<div class="carousel-item">
+<video width="100%" controls>
+<source src="video/krustykrabmodel-modal1_Trim.mp4" type="video/mp4">
+<source src="video/krustykrabmodel-modal1_Trim.ogg" type="video/ogg">
+Your browser does not support HTML5 video.
+</video>
+</div>	
+	
+<div class="carousel-item">
+<img src="images/krustykrabmodel-modal2.png" alt="Model priority schedule" width="110px" height="300px">
+</div>
+    
+<div class="carousel-item">
+<img src="images/krustykrabmodel-modal3.png" alt="Camera route pic" width="110px" height="300px">
+</div>
+</div>
+  
+    
+<a class="carousel-control-prev" href="#demo3" data-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</a>
+    
+<a class="carousel-control-next" href="#demo3" data-slide="next">
+<span class="carousel-control-next-icon"></span>
+</a>
+</div>
+
+       
+<h3>Krusty Krab (Interior)</h3> 
+<p>In this piece of work the aim was to produce a fully textured/shaded lit and rendered 3D animation of the 3D scene specified in previous deliverables for this module. 
+<br>
+<br>
+From the start my module tutor said that for creating the Krusty Krab and not sticking to a normal café scene was going to be hard and added that I am very creative and eclectic. The second photo is the model pre-production plan this helped me know what models needed to be prioritised to create first than others that were less important to the 3D scene. 
+<br>
+<br>
+I had to create a camera route also so that I knew how the camera would travel around the scene to make sure to show everything inside (photo 3). 
+</p>
+</div>      
+</div>
+</div>
+            
+<div class="modal-footer">
+<h3>PROJECT #7</h3>
+</div>      
+</div>   
+</div>   
+<!--Krusty Krab Model Modal--> 
+    
+    
+    
+    
+<!--3D Boat Model Modal-->
+<div id="myModal4" class="modal">
+
+<div class="modal-content">
+<div class="modal-header">
+<span class="close">×</span>
+</div>
+      
+<div class="modal-body">
+<div class="row">
+<div class="col-sm-12">
+<div id="demo4" class="carousel slide" data-ride="carousel" data-interval="false">
+
+    
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img src="images/3dboat-modal1.png" alt="pic of 3D barrel" width="110px" height="300px">
+</div>
+    
+<div class="carousel-item">
+<img src="images/3dboat-modal2.png" alt="first stage of 3D boat" width="110px" height="300px">
+</div>
+    
+<div class="carousel-item">
+<img src="images/3dboat-modal3.png" alt="3D boat scene without texture" width="110px" height="300px">
+</div>
+    
+<div class="carousel-item">
+<img src="images/3dboat-modal4.png" alt="Barrel model creation" width="110px" height="300px">
+</div>   
+</div>
+  
+    
+<a class="carousel-control-prev" href="#demo4" data-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</a>
+    
+<a class="carousel-control-next" href="#demo4" data-slide="next">
+<span class="carousel-control-next-icon"></span>
+</a>
+</div>
+
+          
+<h3>Boat on Water</h3> 
+<p>The instructions given for this task was to render an image of the models that I have previously created (Krusty Krab Boat) & (Barrels). The scene must have correct lighting and must have materials and textures applied to the models. The aim of this task is to form a rendered image that look as realistic as possible. 
+<br>
+<br>
+-	 I had to re design the barrel model by adding a new texture wrap to make it look more realistic and added a more metallic material for the rings around the barrel. I also had to increase the height and decrease the width of the barrel to create a less stubby barrel as seen in the Krusty Krab scene before (shown in photo 1&4).  
+<br>
+<br>
+-	Photo 2 shows the boat in its first model design which was made free hand. To create a smoother looking boat the press the number 3 to transform the boat into a smooth model as shown in photo 3.
+<br>
+<br>
+-	Photo 3 is the pre rendered image with the background and textures still needing to be added. 
+</p>
+</div>   
+</div>
+
+<div class="modal-footer">
+<h3>PROJECT #8</h3>
+</div>     
+</div> 
+</div> 
+</div>
+<!--3D Boat Model Modal-->  
+    
+    
+    
+    
+<!--Krusty Krab Table Modal-->
+<div id="myModal5" class="modal">
+
+<div class="modal-content">
+<div class="modal-header">
+<span class="close">×</span>
+</div>
+      
+<div class="modal-body">
+<div class="row">
+<div class="col-sm-12">
+<div id="demo5" class="carousel slide" data-ride="carousel" data-interval="false">
+  
+    
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img src="images/krustykrabtable-modal1.png" alt="pic of untextured table" width="110px" height="300px">
+</div>
+    
+<div class="carousel-item">
+<img src="images/krustykrabtable-modal2.png" alt="pic of untextured table" width="110px" height="300px">
+</div>
+    
+<div class="carousel-item">
+<img src="images/krustykrabtable-modal3.png" alt="pic of table leg" width="110px" height="300px">
+</div>
+</div>
+  
+    
+<a class="carousel-control-prev" href="#demo5" data-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</a>
+    
+<a class="carousel-control-next" href="#demo5" data-slide="next">
+<span class="carousel-control-next-icon"></span>
+</a>
+</div>
+
+          
+<h3>Krusty Krab table & seats</h3> 
+<p>The aim of this piece of work was to create a café scene that includes tables and chairs and apply materials to them such as colours, light etc. 
+<br>
+<br>
+-	In the first image is the final creation of the Krusty Krab table without the colour materials added to it.
+<br>
+<br>
+-	Second image is me applying the colour materials to the table using the face tool to apply the colours on separate areas to make it look as close to the table in the cartoon.
+<br>
+<br>
+-	I used the rotate tool to create the table leg to make the process quick and smooth and to make it look at a higher quality than creating it free hand using no tools. 
+</p>
+</div> 
+</div>
+
+<div class="modal-footer">
+<h3>PROJECT #9</h3>
+</div>     
+</div>
+</div>
+</div>   
+<!--Krusty Krab Table Modal--> 
+    
+    
+    
+    
+<!--MillennialGaming Modal-->
+<div id="myModal6" class="modal">
+
+
+<div class="modal-content">
+<div class="modal-header">
+<span class="close">×</span>
+</div>
+      
+<div class="modal-body">
+<div class="row">
+<div class="col-sm-12">
+<div id="demo6" class="carousel slide" data-ride="carousel" data-interval="false">
+
+    
+<div class="carousel-inner">
+<div class="carousel-item active">
+<video width="100%" controls>
+<source src="video/Millennial%20Gaming.mp4" type="video/mp4">
+<source src="video/Millennial%20Gaming.mp4" type="video/ogg">
+Your browser does not support HTML5 video.
+</video> 
+</div>
+</div>
+</div>
+
+
+<h3>Millennial Gaming site</h3> 
+<p>The aim of this piece of work is to design and create an interactive website/application for a business to show a section on a site to showcase particular products. The big note is that the website is not be a complete website. The site I created was a single page gaming ecommerce site that will show a variety of games to choose from at good prices.
+<br>
+<br>
+0:28 - User lands on the homepage, checks responsiveness of the site and picks a game to view.
+<br>
+0:49 - User manipulates the video via scrubbing, muting and unmuting and changing the audio level. 
+<br>
+1:16 - User has the ability to choose quantity of games they want to order.
+<br>
+1:23 - User scrolls to the game details.
+<br>
+1:34 - User leaves a comment.
+</p>
+</div>
+	
+<div class="row" id="demo-row">
+<div class="col-6">
+<button class="button" id="strike-btn"><i class="fa fa-eye" aria-hidden="true"></i>
+DEMO</button>
+</div>
+
+<div class="col-6">
+<button class="button" id="demo-btn"><a href="https://github.com/Nathan-47/millennialgaming" target="_blank"><i class="fa fa-code" aria-hidden="true"></i>CODE</a></button>
+</div>	
+</div>     
+</div>
+        
+<div class="modal-footer">
+<h3>PROJECT #4</h3>
+</div>   
+</div>
+</div>
+</div> 
+<!--MilenialGaming Modal-->
+    
+    
+    
+    
+<!--Chessmate Modal-->
+<div id="myModal7" class="modal">
+
+<div class="modal-content">
+<div class="modal-header">
+<span class="close">×</span>
+</div>
+      
+<div class="modal-body">
+<div class="row">
+<div class="col-sm-12">
+<div id="demo7" class="carousel slide" data-ride="carousel" data-interval="false">
+
+  
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img src="images/chesssite-thumbnail.png" alt="checkmate image 1" width="110px" height="300px">
+</div>
+</div>
+</div>
+
+          
+<h3>Checkmate Site</h3> 
+<p>This was one of the first website projects I had worked on and also the first within a team. For this work the aim was to produce a website as a team project, the site had to have a theme and the theme given to us in this case was chess. The website could not include any flash or JavaScript interaction and only conform to the HTML5 and CSS3 standard.
+<br>
+<br>
+My Role: In the group my allocated role was to create a design report, create the site logo and create the how to play & tournaments page. The design report role consisted of analysing several chess sites and create a report based on three stages which are; planning feasibility, user requirements and structural design. The logo design role was given to both me and another member of the group as we both planned and drew different designs on notepads and then implemented them into adobe illustrator.</p> 
+</div>
+	
+<div class="row" id="demo-row">
+<div class="col-6">
+<button class="button" id="demo-btn"><a href="https://nathan-47.github.io/checkmate.-io/" target="blank"><i class="fa fa-eye" aria-hidden="true"></i>DEMO</a></button>
+</div>
+
+<div class="col-6">
+<button class="button" id="demo-btn"><a href="https://github.com/Nathan-47/checkmate.-io" target="_blank"><i class="fa fa-code" aria-hidden="true"></i>CODE</a></button>
+</div>
+</div>   
+</div>      
+       
+<div class="modal-footer">
+<h3>PROJECT #5</h3>
+</div>    
+</div>
+</div> 
+</div>   
+<!--Chessmate Modal-->    
+    
+    
+    
+    
+<!--Jukebox Modal-->
+<div id="myModal8" class="modal">
+
+<div class="modal-content">
+<div class="modal-header">
+<span class="close">×</span>
+</div>
+      
+<div class="modal-body">      
+<div class="row">
+<div class="col-sm-12">
+<div id="demo8" class="carousel slide" data-ride="carousel" data-interval="false">
+ 
+    
+<div class="carousel-inner">
+<div class="carousel-item active">
+<video width="100%" controls>
+<source src="video/Music%20Jukebox.mp4" type="video/mp4">
+<source src="video/Music%20Jukebox.ogg" type="video/ogg">
+Your browser does not support HTML5 video.
+</video> 
+</div>
+</div>
+</div>
+
+
+<h3>Music Jukebox</h3> 
+<p>In this task the requirement was to create a multimedia application for an online music jukebox. The application had to include the following; HTML5, CSS3, PHP6 and MySQL to form a website viewable on a desktop. Our module leader allowed the use of W3Schools templates to help aid our site building understanding. 
+<br>
+<br>
+Using examples such as BBC radio desktop application and MTV music charts player helped me understand what all users want  to know.  I included the main elements such as;  the artists name, song and the album this can be seen in (photo 1). The usability is simple, once the users click on the song of their choice the page the user lands on will display the picture of the album cover, artist and album title. Along with all this is a music player that allows the user to play, pause, scrub through and change the volume of the song. 
+<br>
+<br>
+0:12 - User lands on the homepage and begins to scroll through.
+<br>
+0:18 - Welcome introduction to the site can be seen and little after that the main content of the site is shown being the jukebox list. 
+<br>
+0:42 - User selects a song.
+<br>
+0:43 - User lands on music player page.
+<br>
+0:50 - User begins to play music and manipulate with music player controls.
+</p>
+</div>
+<div class="row" id="demo-row">
+<div class="col-6">
+<button class="button" id="strike-btn"><i class="fa fa-eye" aria-hidden="true"></i>
+DEMO</button>
+</div>
+
+<div class="col-6">
+<button class="button" id="demo-btn"><a href="https://github.com/Nathan-47/musicjukebox" target="_blank"><i class="fa fa-code" aria-hidden="true"></i>CODE</a></button>
+</div>
+</div>
+</div>
+
+         
+<div class="modal-footer">
+<h3>PROJECT #6</h3>
+</div>     
+</div>
+</div>
+</div>   
+<!--Jukebox Modal-->  
+    
+    
+
+  
+ <!--Portfolio Placeholder Modal-->
+<div id="myModal9" class="modal">
+
+
+<div class="modal-content">
+<div class="modal-header">
+<span class="close">×</span>
+</div>
+      
+<div class="modal-body">       
+<div class="row">
+<div class="col-sm-12">
+<div id="demo9" class="carousel slide" data-ride="carousel" data-interval="false">
+ 
+    
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img src="images/portfolio-thumbnail.png" alt="pic of portfolio placeholder landing page" width="110px" height="300px">
+</div>
+</div>
+</div>
+
+
+<h3>Portfolio Placeholder</h3> 
+<p>This work is my portfolio that I have designed and built myself from scratch which is used for myself and as a template for others that need a responsive portfolio online.
+<br>
+<br>
+The site is responsive to all devices making it easier for another user to enter their information when using this as a template without worrying about what it will look like on various hardware devices. The filter js gives a clean look towards the viewer as they can filter through what prioritised projects, they want to see without having to look at them all via scrolling. Speaking of scrolling, smooth scroll is added to create an ease feel whilst navigating through the site.
+</p>
+</div>
+	
+<div class="row" id="demo-row">
+<div class="col-6">
+<button class="button" id="demo-btn"><a href="https://nathan-47.github.io/portfolioplaceholder.io/" target="_blank"><i class="fa fa-eye" aria-hidden="true"></i>DEMO</a></button>
+</div>
+
+<div class="col-6">
+<button class="button" id="demo-btn"><a href="https://github.com/Nathan-47/portfolioplaceholder.io" target="_blank"><i class="fa fa-code" aria-hidden="true"></i>CODE</a></button>
+</div>
+</div>    
+</div>
+
+        
+<div class="modal-footer">
+<h3>PROJECT #3</h3>
+</div>     
+</div>
+</div>
+</div>   
+<!--Portfolio Placeholder Modal-->     
+    
+    
+    
+    
+<!--FOOTER SECTION-->    
+<div class="footer" id="footersection">
+    
+<div class="container-fluid">
+<div class="row">  
+<a href="mailto:nathan.parchment47@gmail.com?" target="_top" class="btn-contact2">
+<span class="content">GET IN TOUCH</span>
+</a>
+</div>
+</div>    
+
+<div class="footer-social-icons">
+<ul>
+<li><a href="https://github.com/Nathan-47" target="blank"><i class="fa fa-github"></i></a></li>
+
+<li><a href="https://www.linkedin.com/in/nathan-parchment-aa766118b" target="blank"><i class="fa fa-linkedin"></i></a></li>
+
+<li><a href="https://www.instagram.com/glvdstone_/" target="blank"><i class="fa fa-instagram"></i></a></li>  
+</ul>
+</div>
+</div>
+    
+<div class="footer-menu-one">
+<ul>
+<li>BUILT BY NATHAN PARCHMENT © 2020</li>
+</ul>    
+</div>
+    
+<div class="footer-menu-two">
+<ul>
+<li><a href="#">VIEW CODE</a></li>
+</ul>    
+</div>    
+<!--FOOTER SECTION-->  
+
+    
+    
+<!--SCRIPTS-->   
+<script src="script.js"></script>  
+<script src="stickynav.js"></script>
+<script src="filter.js"></script>
+<script src="modal.js"></script>
+
+    
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>   
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--SCRIPTS-->    
+</body>
+</html>
